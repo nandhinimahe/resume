@@ -1,0 +1,87 @@
+*{
+    background-color:#fff;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.resume {
+    width: 800px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.profile-pic {
+    flex: 1;
+    border-bottom:1px solid ;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-right-style:ridge;
+}
+
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin:50px;
+}
+
+.contact-info {
+    flex: 3;
+    text-align: left;
+}
+
+.contact-info h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.content section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.job, .education {
+    margin-bottom: 10px;
+}
+
+.skills {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background: #333;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
